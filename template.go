@@ -440,6 +440,7 @@ func newTemplate(name string) *template.Template {
 		"replace":                strings.Replace,
 		"parseBool":              strconv.ParseBool,
 		"parseJson":              unmarshalJson,
+		"parseUrl":               url.Parse,
 		"queryEscape":            url.QueryEscape,
 		"sha1":                   hashSha1,
 		"split":                  strings.Split,
